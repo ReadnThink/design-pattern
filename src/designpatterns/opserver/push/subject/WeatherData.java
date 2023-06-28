@@ -1,6 +1,6 @@
-package designpatterns.opserver.subject;
+package designpatterns.opserver.push.subject;
 
-import designpatterns.opserver.observer.Observer;
+import designpatterns.opserver.push.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,12 +16,12 @@ public class WeatherData implements Subject{
     }
 
     @Override
-    public void registerObserver(Observer o) {
+    public void registerObserver(designpatterns.opserver.push.observer.Observer o) {
         observers.add(o);
     }
 
     @Override
-    public void removeObserver(Observer o) {
+    public void removeObserver(designpatterns.opserver.push.observer.Observer o) {
         observers.remove(o);
     }
 

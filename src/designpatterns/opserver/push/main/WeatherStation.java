@@ -1,10 +1,10 @@
-package designpatterns.opserver.main;
+package designpatterns.opserver.push.main;
 
-import designpatterns.opserver.observer.display.CurrentConditionsDisplay;
-import designpatterns.opserver.observer.display.ForecastDisplay;
-import designpatterns.opserver.observer.display.HeatIndexDisplay;
-import designpatterns.opserver.observer.display.StatisticsDisplay;
-import designpatterns.opserver.subject.WeatherData;
+import designpatterns.opserver.push.observer.display.CurrentConditionsDisplay;
+import designpatterns.opserver.push.observer.display.ForecastDisplay;
+import designpatterns.opserver.push.observer.display.HeatIndexDisplay;
+import designpatterns.opserver.push.observer.display.StatisticsDisplay;
+import designpatterns.opserver.push.subject.WeatherData;
 
 public class WeatherStation {
     public static void main(String[] args) {

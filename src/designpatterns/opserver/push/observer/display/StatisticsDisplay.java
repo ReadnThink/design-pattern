@@ -1,8 +1,10 @@
-package designpatterns.opserver.observer.display;
+package designpatterns.opserver.push.observer.display;
 
-import designpatterns.opserver.observer.DisplayElement;
-import designpatterns.opserver.observer.Observer;
-import designpatterns.opserver.subject.WeatherData;
+
+import designpatterns.opserver.push.observer.DisplayElement;
+import designpatterns.opserver.push.observer.Observer;
+import designpatterns.opserver.push.subject.WeatherData;
+
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;

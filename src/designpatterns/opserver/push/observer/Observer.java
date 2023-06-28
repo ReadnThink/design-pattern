@@ -1,4 +1,4 @@
-package designpatterns.opserver.observer;
+package designpatterns.opserver.push.observer;
 
 public interface Observer {
     public void update(float temperature, float humidity, float pressure);
