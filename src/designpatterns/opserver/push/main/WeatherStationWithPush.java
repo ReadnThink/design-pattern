@@ -6,8 +6,9 @@ import designpatterns.opserver.push.observer.display.HeatIndexDisplay;
 import designpatterns.opserver.push.observer.display.StatisticsDisplay;
 import designpatterns.opserver.push.subject.WeatherData;
 
-public class WeatherStation {
+public class WeatherStationWithPush {
     public static void main(String[] args) {
+        System.out.println("Push 방식의 옵저버 패턴!");
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
