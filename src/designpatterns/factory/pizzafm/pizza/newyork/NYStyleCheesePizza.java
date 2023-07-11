@@ -1,6 +1,8 @@
-package designpatterns.factory.pizzafm.pizza;
+package designpatterns.factory.pizzafm.pizza.newyork;
 
-public class NYStyleCheesePizza extends Pizza{
+import designpatterns.factory.pizzafm.pizza.Pizza;
+
+public class NYStyleCheesePizza extends Pizza {
 
     public NYStyleCheesePizza() {
         name = "뉴욕 스타일 소스와 치즈 피자";

@@ -1,6 +1,10 @@
 package designpatterns.factory.pizzafm.factory;
 
 import designpatterns.factory.pizzafm.pizza.*;
+import designpatterns.factory.pizzafm.pizza.chicago.ChicagoStyleCheesePizza;
+import designpatterns.factory.pizzafm.pizza.chicago.ChicagoStyleClamPizza;
+import designpatterns.factory.pizzafm.pizza.chicago.ChicagoStylePepperoniPizza;
+import designpatterns.factory.pizzafm.pizza.chicago.ChicagoStyleVeggiePizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override

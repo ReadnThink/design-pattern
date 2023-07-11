@@ -1,4 +1,6 @@
-package designpatterns.factory.pizzafm.pizza;
+package designpatterns.factory.pizzafm.pizza.chicago;
+
+import designpatterns.factory.pizzafm.pizza.Pizza;
 
 public class ChicagoStyleClamPizza extends Pizza {
     public ChicagoStyleClamPizza() {

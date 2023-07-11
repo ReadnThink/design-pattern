@@ -1,13 +1,14 @@
-package designpatterns.factory.pizzafm.pizza;
+package designpatterns.factory.pizzafm.pizza.newyork;
 
-public class NYStylePepperoniPizza extends Pizza {
-    public NYStylePepperoniPizza() {
-        name ="NY Style Pepperoni Pizza";
+import designpatterns.factory.pizzafm.pizza.Pizza;
+
+public class NYStyleVeggiePizza extends Pizza {
+    public NYStyleVeggiePizza() {
+        name ="NY Style Veggie Pizza";
         dough ="Thin Crust Dough";
         sauce ="Marinara Sauce";
 
         toppings.add("Grated Reggiano Cheese");
-        toppings.add("Sliced Pepperoni");
         toppings.add("Garlic");
         toppings.add("Onion");
         toppings.add("Mushrooms");
