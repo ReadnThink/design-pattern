@@ -1,22 +1,21 @@
 package designpatterns.factory.pizzafm.pizza;
 
+import designpatterns.factory.pizzafm.ingredient.interfaces.*;
+
 import java.util.ArrayList;
 
 public abstract class Pizza {
     public String name;
-    public String dough;
-    public String sauce;
 
-    public ArrayList<String> toppings = new ArrayList<>();
+    public Dough dough;
+    public Sauce sauce;
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
 
-    public void prepare() {
-        System.out.println("반죽중...");
-        System.out.println("소스 뿌리는중...");
-        System.out.println("토핑중: ");
-        for (String topping : toppings) {
-            System.out.println("   " + topping);
-        }
-    }
+
+    abstract public void prepare();
 
     public void bake() {
         System.out.println("피자 굽는 시간 : 25분 350도");
@@ -35,4 +34,7 @@ public abstract class Pizza {
     }
 
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }

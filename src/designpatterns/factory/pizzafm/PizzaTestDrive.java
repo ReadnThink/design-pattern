@@ -1,8 +1,8 @@
 package designpatterns.factory.pizzafm;
 
-import designpatterns.factory.pizzafm.factory.ChicagoPizzaStore;
-import designpatterns.factory.pizzafm.factory.NYPizzaStore;
-import designpatterns.factory.pizzafm.factory.PizzaStore;
+import designpatterns.factory.pizzafm.store.ChicagoPizzaStore;
+import designpatterns.factory.pizzafm.store.NYPizzaStore;
+import designpatterns.factory.pizzafm.store.PizzaStore;
 import designpatterns.factory.pizzafm.pizza.Pizza;
 
 public class PizzaTestDrive {

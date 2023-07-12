@@ -1,4 +1,4 @@
-package designpatterns.factory.pizzafm.factory;
+package designpatterns.factory.pizzafm.store;
 
 import designpatterns.factory.pizzafm.pizza.Pizza;
 
